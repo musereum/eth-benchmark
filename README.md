@@ -13,7 +13,7 @@ $ node prepareBenchmark.js <num of accounts> <num of transactions>
 $ node runBenchmark.js <transactions per second>
 ```
 
-!!!! Geth
+####Geth
 
 ```
 $ geth init genesis.geth.json
@@ -26,14 +26,14 @@ $ geth \
 
 
 
-!!!! Parity
+####Parity
 
 Parity requires external miner (see
 [here](https://github.com/ethcore/parity/wiki/Mining)).
 
 ```
 $ ethminer --cpu --mining-threads 1 --verbosity 0
-$ parity
+$ parity \
     --no-ui --geth \
     --no-discovery \
     --chain genesis.parity.json \

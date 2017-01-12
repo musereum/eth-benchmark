@@ -43,7 +43,6 @@ const genesisParityTemplate = {
     }
   },
   "params": {
-    "accountStartNonce": "0x0000000000000000",
     "maximumExtraDataSize": "0x20",
     "minGasLimit": "0xFFFF0000",
     "networkID" : networkId
